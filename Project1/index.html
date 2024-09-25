@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Gradient Login Authentication Bar</title>
+<link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required placeholder="Enter your username">
+                <span class="icon">👤</span>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+                <span class="icon">🔒</span>
+            </div>
+            <button type="submit">Log In</button>
+        </form>
+        <div class="error-message" id="errorMessage"></div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
